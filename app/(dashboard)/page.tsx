@@ -1,11 +1,9 @@
-import { Button } from "@/components/ui/button";
+'use client'
 
 export default function Home() {
-  return (
-    <main>
-      <Button>
-        Click Me
-      </Button>
-    </main>
-  );
-}
+    return (
+        <main>
+            Home Page
+        </main>
+    );
+};

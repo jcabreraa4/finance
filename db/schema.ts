@@ -1,6 +1,6 @@
 import { integer, text, pgTable } from 'drizzle-orm/pg-core';
 
-export const todo = pgTable('accounts', {
+export const accounts = pgTable('accounts', {
     id: integer('id').primaryKey(),
     plaidId: text('plaid_id').notNull(),
     name: text('name').notNull(),
